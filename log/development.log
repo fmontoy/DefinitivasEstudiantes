@@ -1,0 +1,371 @@
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/Proyecto1/config/routes.rb:4)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/Proyecto1/config/routes.rb:4)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/Proyecto1/config/routes.rb:4)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/Proyecto1/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2017-02-02 19:35:46 -0500
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.1) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.1) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.4ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/Proyecto1/config/routes.rb:4)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/Proyecto1/config/routes.rb:4)
+  [1m[35m (105.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (127.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateEstudiantes (20170203003401)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "estudiantes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar, "definitiva" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170203003401"]]
+  [1m[35m (102.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-02-03 00:36:09 UTC], ["updated_at", 2017-02-03 00:36:09 UTC]]
+  [1m[35m (91.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/Proyecto1/config/routes.rb:4)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/Proyecto1/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2017-02-02 19:36:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 1217ms (Views: 1206.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/main/show_data" for 127.0.0.1 at 2017-02-02 19:36:49 -0500
+Processing by MainController#show_data as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9e90nvzsJmrwoBURY+UEzzcgnw+ojYZEo+P+HUOPNF51dF5eGlxYd1sgwipssc/2NJ9qI8KlIAGlBWiLy88vfA==", "name_user"=>"Felipe Montoya", "note_1"=>"50", "per_1"=>"50", "note_2"=>"30", "per_2"=>"25", "note_3"=>"40", "per_3"=>"25", "commit"=>"Save Data"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  [1m[32mINSERT INTO "estudiantes" ("nombre", "definitiva", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre", "Felipe Montoya"], ["definitiva", 4.25], ["created_at", 2017-02-03 00:36:49 UTC], ["updated_at", 2017-02-03 00:36:49 UTC]]
+  [1m[35m (206.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering tabla/view_table.html.erb within layouts/application
+  [1m[36mEstudiante Load (0.2ms)[0m  [1m[34mSELECT "estudiantes".* FROM "estudiantes"[0m
+  Rendered tabla/view_table.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 270ms (Views: 41.4ms | ActiveRecord: 211.7ms)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/DefinitivasEstudiantes/Proyecto1/config/routes.rb:4)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/DefinitivasEstudiantes/Proyecto1/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2017-02-02 19:53:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 455ms (Views: 445.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/main/show_data" for 127.0.0.1 at 2017-02-02 19:55:41 -0500
+Processing by MainController#show_data as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ekRQjgxlQ6LvFKhejaLBSgqy/bH3ojB3HzyiSP+CE6r633pO6tU9v0SUf2WC9gpzCQ0InZ2KljIZ2jTed8IIiA==", "name_user"=>"Tomas Lanos", "note_1"=>"35", "per_1"=>"50", "note_2"=>"50", "per_2"=>"25", "note_3"=>"40", "per_3"=>"25", "commit"=>"Save Data"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "estudiantes" ("nombre", "definitiva", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre", "Tomas Lanos"], ["definitiva", 4.0], ["created_at", 2017-02-03 00:55:41 UTC], ["updated_at", 2017-02-03 00:55:41 UTC]]
+  [1m[35m (86.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering tabla/view_table.html.erb within layouts/application
+  [1m[36mEstudiante Load (0.7ms)[0m  [1m[34mSELECT "estudiantes".* FROM "estudiantes"[0m
+  Rendered tabla/view_table.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 266ms (Views: 78.6ms | ActiveRecord: 88.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-02 19:56:26 -0500
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/main/show_data" for 127.0.0.1 at 2017-02-02 19:56:54 -0500
+Processing by MainController#show_data as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rMQtRsdBf55Q5BokynTze++jeAFXz9CsH2ZpNEBrzH0sXweGIfEBg/tkzR/FIDhC7ByNLT3ndukZgP+iyCvXXw==", "name_user"=>"Sofía Muñoz", "note_1"=>"40", "per_1"=>"25", "note_2"=>"37", "per_2"=>"50", "note_3"=>"45", "per_3"=>"25", "commit"=>"Save Data"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "estudiantes" ("nombre", "definitiva", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre", "Sofía Muñoz"], ["definitiva", 3.975], ["created_at", 2017-02-03 00:56:54 UTC], ["updated_at", 2017-02-03 00:56:54 UTC]]
+  [1m[35m (152.1ms)[0m  [1m[36mcommit transaction[0m
+  Rendering tabla/view_table.html.erb within layouts/application
+  [1m[36mEstudiante Load (0.6ms)[0m  [1m[34mSELECT "estudiantes".* FROM "estudiantes"[0m
+  Rendered tabla/view_table.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 240ms (Views: 79.8ms | ActiveRecord: 154.0ms)
+
+
+Started GET "/main/show_data" for 127.0.0.1 at 2017-02-02 19:58:12 -0500
+Processing by MainController#show_data as HTML
+  [1m[35m (1.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "estudiantes" ("definitiva", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["definitiva", 0.0], ["created_at", 2017-02-03 00:58:12 UTC], ["updated_at", 2017-02-03 00:58:12 UTC]]
+  [1m[35m (95.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendering tabla/view_table.html.erb within layouts/application
+  [1m[36mEstudiante Load (0.9ms)[0m  [1m[34mSELECT "estudiantes".* FROM "estudiantes"[0m
+  Rendered tabla/view_table.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 196ms (Views: 82.6ms | ActiveRecord: 99.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-02 20:01:46 -0500
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-02 20:01:50 -0500
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/main/show_data" for 127.0.0.1 at 2017-02-02 20:02:12 -0500
+Processing by MainController#show_data as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U+ti9N/R5+XiTJjWJzXtLWCHawMeE8sZGLopCfLVubXTcEg0OWGZ+EnMT+0oYSYUYzieL3Q7bVweXL+fepWilw==", "name_user"=>"Pedro Ochoa", "note_1"=>"50", "per_1"=>"50", "note_2"=>"49", "per_2"=>"30", "note_3"=>"25", "per_3"=>"20", "commit"=>"Save Data"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "estudiantes" ("nombre", "definitiva", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre", "Pedro Ochoa"], ["definitiva", 4.470000000000001], ["created_at", 2017-02-03 01:02:12 UTC], ["updated_at", 2017-02-03 01:02:12 UTC]]
+  [1m[35m (180.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering tabla/view_table.html.erb within layouts/application
+  [1m[36mEstudiante Load (0.7ms)[0m  [1m[34mSELECT "estudiantes".* FROM "estudiantes"[0m
+  Rendered tabla/view_table.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 234ms (Views: 46.2ms | ActiveRecord: 182.8ms)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/DefinitivasEstudiantes/Proyecto1/config/routes.rb:4)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at /home/felipe/Universidad/Septimo Semestre/Topicos Telematica/DefinitivasEstudiantes/Proyecto1/config/routes.rb:4)
+Started GET "/" for 127.0.0.1 at 2017-02-02 20:06:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 212ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  font-family": expected ";", was ": 'Amatic SC', ..."):
+    4:     <title>Proyecto1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/tabla.scss:6
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__812492484850323046_47016905786900'
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.0ms)
+Started GET "/" for 127.0.0.1 at 2017-02-02 20:06:29 -0500
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 128ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/main/show_data" for 127.0.0.1 at 2017-02-02 20:07:01 -0500
+Processing by MainController#show_data as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7tnZPEVOtUwvXo/oRQU2QW1hFeB8NVup8hLadj/ClrhuQvP8o/7LUYTeWNNKUf14bt7gzBYd/ez09Ezgt4KNmg==", "name_user"=>"Cristobal Colon", "note_1"=>"25", "per_1"=>"25", "note_2"=>"50", "per_2"=>"25", "note_3"=>"48", "per_3"=>"50", "commit"=>"Save Data"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "estudiantes" ("nombre", "definitiva", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre", "Cristobal Colon"], ["definitiva", 4.275], ["created_at", 2017-02-03 01:07:01 UTC], ["updated_at", 2017-02-03 01:07:01 UTC]]
+  [1m[35m (133.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering tabla/view_table.html.erb within layouts/application
+  [1m[36mEstudiante Load (0.6ms)[0m  [1m[34mSELECT "estudiantes".* FROM "estudiantes"[0m
+  Rendered tabla/view_table.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 187ms (Views: 36.0ms | ActiveRecord: 137.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-02 20:09:17 -0500
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/main/show_data" for 127.0.0.1 at 2017-02-02 20:09:45 -0500
+Processing by MainController#show_data as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UpdbZwsJqEHHDsC/J/6/pcpO8jgYzMnqab5qNwpC/DTSDHGn7bnWXGyOF4QoqnScyfEHFHLkb69vWPyhggLnFg==", "name_user"=>"Camilo Mejía", "note_1"=>"30", "per_1"=>"25", "note_2"=>"38", "per_2"=>"25", "note_3"=>"30", "per_3"=>"50", "commit"=>"Save Data"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "estudiantes" ("nombre", "definitiva", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre", "Camilo Mejía"], ["definitiva", 3.2], ["created_at", 2017-02-03 01:09:45 UTC], ["updated_at", 2017-02-03 01:09:45 UTC]]
+  [1m[35m (168.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering tabla/view_table.html.erb within layouts/application
+  [1m[36mEstudiante Load (0.9ms)[0m  [1m[34mSELECT "estudiantes".* FROM "estudiantes"[0m
+  Rendered tabla/view_table.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 212ms (Views: 35.8ms | ActiveRecord: 169.5ms)
+
+
+Started GET "/main/tabla.scss" for 127.0.0.1 at 2017-02-02 20:09:45 -0500
+  
+AbstractController::ActionNotFound (The action 'tabla' could not be found for MainController):
+  
+actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.4ms)
+Started GET "/" for 127.0.0.1 at 2017-02-02 20:13:48 -0500
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/main/show_data" for 127.0.0.1 at 2017-02-02 20:14:18 -0500
+Processing by MainController#show_data as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TkUtz4FjWOTTlm4wOeSYnn9neHvy+dvG5cVq6+eElAfO3gcPZ9Mm+XgWuQs2sFOnfNiNV5jRfYPjI/x9b8SPJQ==", "name_user"=>"Alejandro Ochoa", "note_1"=>"32", "per_1"=>"40", "note_2"=>"35", "per_2"=>"10", "note_3"=>"49", "per_3"=>"50", "commit"=>"Save Data"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "estudiantes" ("nombre", "definitiva", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre", "Alejandro Ochoa"], ["definitiva", 4.08], ["created_at", 2017-02-03 01:14:18 UTC], ["updated_at", 2017-02-03 01:14:18 UTC]]
+  [1m[35m (138.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering tabla/view_table.html.erb within layouts/application
+  [1m[36mEstudiante Load (0.6ms)[0m  [1m[34mSELECT "estudiantes".* FROM "estudiantes"[0m
+  Rendered tabla/view_table.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 218ms (Views: 73.0ms | ActiveRecord: 139.4ms)
+
+
+Started GET "/main/tabla.scss" for 127.0.0.1 at 2017-02-02 20:14:18 -0500
+  
+AbstractController::ActionNotFound (The action 'tabla' could not be found for MainController):
+  
+actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/felipe/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
